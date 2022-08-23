@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "A HealthyR bitesize workshop",
     "section": "",
-    "text": "Installation:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don't have one already\n\nhttps://github.com/"
+    "text": "Installation:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/"
   },
   {
     "objectID": "about.html",
