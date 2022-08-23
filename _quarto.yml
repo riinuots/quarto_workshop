@@ -18,7 +18,6 @@ website:
         text: "Share using Netlify"
       - href: 06_update.qmd
         text: "Updating"
-        
 format:
   html:
     theme: spacelab
