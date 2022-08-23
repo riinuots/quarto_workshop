@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-## Instructions:
+## Instructions
 
 -   Edit your website in RStudio. Click Render.
 -   In Netlify - Deploys - Drag and drop `_site` folder to the update area:

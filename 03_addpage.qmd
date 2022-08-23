@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-## Instructions:
+## Instructions
 
 -   Take a copy of an existing page, e.g., `about.qmd`. Call it `penguins.qmd`.
 -   Edit the title and content of `penguins.qmd`.
@@ -19,7 +19,7 @@ format:
 :::
 :::
 
-## Troubleshooting:
+## Troubleshooting
 
 -   Error: Cannot retrieve output, Parameter value invalid.
     -   Close the error and hit Render again. It will just go away 😅

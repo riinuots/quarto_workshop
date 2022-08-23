@@ -14,7 +14,7 @@ The resulting website can be viewed here: [quarto-demo.netlify.app](https://quar
 
 -   Colloquially known as the 'new R Markdown'
 
-## Prerequisites:
+## Prerequisites
 
 -   Install the latest version of R on your computer
 
@@ -24,7 +24,7 @@ The resulting website can be viewed here: [quarto-demo.netlify.app](https://quar
 
     -   [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}
 
-### Optional (advanced):
+### Optional (advanced)
 
 -   Install git
 
@@ -36,7 +36,7 @@ The resulting website can be viewed here: [quarto-demo.netlify.app](https://quar
 
 This is a workshop by **Riinu Pius** ([https://riinu.me](https://riinu.me/){target="_blank"}) for HealthyR ([https://healthyr.surgicalinformatics.org/](https://healthyr.surgicalinformatics.org/){target="_blank"}).
 
-## Issues:
+## Issues
 
 -   <https://github.com/riinuots/quarto_workshop/issues>
 

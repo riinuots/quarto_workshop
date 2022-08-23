@@ -7,13 +7,11 @@ format:
 
 \
 
-## Instructions:
+## Instructions
 
 -   RStudio - New Project - New Directory - Quarto Website
 
 -   Click on Render to have a look at the template.
-
-## Screencast:
 
 ::: {style="max-width:608px"}
 ::: {style="position:relative;padding-bottom:66.118421052632%"}
@@ -23,7 +21,7 @@ format:
 :::
 :::
 
-## Troubleshooting:
+## Troubleshooting
 
 -   Error: "C:/Program is not recognised as an internal or external command, operable program or batch file."
     -   Make sure project name and parent folders have no spaces in them (only an issue on some Windows computers).

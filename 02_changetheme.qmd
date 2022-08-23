@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-## Instructions:
+## Instructions
 
 -   Change the theme in `_quarto.yml` to anything other than the default.
 -   Edit the template content in `index.qmd` and `about.qmd`.

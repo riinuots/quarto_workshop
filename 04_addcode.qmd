@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-## Instructions:
+## Instructions
 
 -   Insert a code chunk.
     -   Use the green +C button or `Ctrl+Alt+I`/`Cmd+Opt+I`.

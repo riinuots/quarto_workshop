@@ -73,8 +73,8 @@
     "objectID": "01_newproject.html#instructions",
     "href": "01_newproject.html#instructions",
     "title": "Task: Create a new Quarto website project",
-    "section": "Instructions:",
-    "text": "Instructions:\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template."
+    "section": "Instructions",
+    "text": "Instructions\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template."
   },
   {
     "objectID": "01_newproject.html#screencast",
@@ -87,15 +87,15 @@
     "objectID": "01_newproject.html#troubleshooting",
     "href": "01_newproject.html#troubleshooting",
     "title": "Task: Create a new Quarto website project",
-    "section": "Troubleshooting:",
-    "text": "Troubleshooting:\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
   },
   {
     "objectID": "03_addpage.html#troubleshooting",
     "href": "03_addpage.html#troubleshooting",
     "title": "Task: Add a page to your website",
-    "section": "Troubleshooting:",
-    "text": "Troubleshooting:\n\nError: Cannot retrieve output, Parameter value invalid.\n\nClose the error and hit Render again. It will just go away 😅"
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nError: Cannot retrieve output, Parameter value invalid.\n\nClose the error and hit Render again. It will just go away 😅"
   },
   {
     "objectID": "05_netlify.html#optional-if-want-to-keep-the-site-for-longer-than-1h",
@@ -108,15 +108,15 @@
     "objectID": "index.html#prerequisites",
     "href": "index.html#prerequisites",
     "title": "Creating a website using Quarto and RStudio",
-    "section": "Prerequisites:",
-    "text": "Prerequisites:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/\n\n\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\n\nOptional (advanced)\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/\n\n\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
   },
   {
     "objectID": "index.html#issues",
     "href": "index.html#issues",
     "title": "Creating a website using Quarto and RStudio",
-    "section": "Issues:",
-    "text": "Issues:\n\nhttps://github.com/riinuots/quarto_workshop/issues"
+    "section": "Issues",
+    "text": "Issues\n\nhttps://github.com/riinuots/quarto_workshop/issues"
   },
   {
     "objectID": "index.html#what-is-quarto",

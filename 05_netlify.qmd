@@ -5,7 +5,7 @@ format:
     page-layout: full
 ---
 
-## Instructions:
+## Instructions
 
 -   Find the project and its `_site` directory on your computer.
     -   The Files tab within RStudio shows you the project path. Locate this folder in File Explorer (Windows) or Finder (macOS).
