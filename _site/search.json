@@ -123,6 +123,6 @@
     "href": "index.html#what-is-quarto",
     "title": "Creating a website using Quarto and RStudio",
     "section": "What is Quarto?",
-    "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\n[https://quarto.org/](https://quarto.org/){target=“_blank”}\n\n\n\nColloquially known as ‘the new R Markdown’"
+    "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\nhttps://quarto.org/\nColloquially known as the ‘new R Markdown’"
   }
 ]

@@ -10,12 +10,9 @@ The resulting website can be viewed here: [quarto-demo.netlify.app](https://quar
 
 -   Quarto^®^ is an open-source scientific and technical publishing system built on Pandoc
 
--   \[https://quarto.org/\](https://quarto.org/){target="\_blank"}
+-   [https://quarto.org/](https://quarto.org/){target="_blank"}
 
-```{=html}
-<!-- -->
-```
--   Colloquially known as 'the new R Markdown'
+-   Colloquially known as the 'new R Markdown'
 
 ## Prerequisites:
 
