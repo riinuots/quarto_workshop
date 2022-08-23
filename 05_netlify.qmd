@@ -1,0 +1,31 @@
+---
+title: "Task: Serve your website using Netlify"
+format: 
+  html:
+    page-layout: full
+---
+
+## Instructions:
+
+-   Find the project and its `_site` directory on your computer.
+    -   The Files tab within RStudio shows you the project path. Locate this folder in File Explorer (Windows) or Finder (macOS).
+-   Search online for 'netlify drop'
+-   Drag and drop the `_site` folder there.
+
+::: {style="max-width:608px"}
+::: {style="position:relative;padding-bottom:66.118421052632%"}
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&amp;playerId=kaltura_player&amp;entry_id=1_i6w2y7kb&amp;flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&amp;wid=1_351ic8d3" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Sharing a Quarto website using Netlify Drop" style="position:absolute;top:0;left:0;width:100%;height:100%">
+
+</iframe>
+:::
+:::
+
+## Optional: If want to keep the site for longer than 1h
+
+-   Create a Netlify account (GitHub authentication is convenient). Claim the site.
+
+-   Give it a better URL, e.g., yourname.netlify.app.
+
+    -   Site settings - General - Change site name.
+
+    -   FYI, custom domains, so getting rid of the trailing netlify.app cost around £20-30 per year.

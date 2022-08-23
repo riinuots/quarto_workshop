@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "A HealthyR bitesize workshop",
+    "section": "",
+    "text": "Installation:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don't have one already\n\nhttps://github.com/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "01_newproject.html",
+    "href": "01_newproject.html",
+    "title": "Task: Create a new Quarto website project",
+    "section": "",
+    "text": "Instructions:\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template.\n\nScreencast:\n\n\n\n\n\n\nTroubleshooting:\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
+  },
+  {
+    "objectID": "02_changetheme.html",
+    "href": "02_changetheme.html",
+    "title": "Task: Edit your Quarto website",
+    "section": "",
+    "text": "Change the theme in _quarto.yml to anything other than the default.\nEdit the template content in index.qmd and about.qmd."
+  },
+  {
+    "objectID": "03_addpage.html",
+    "href": "03_addpage.html",
+    "title": "Task: Add a page to your website",
+    "section": "",
+    "text": "Take a copy of an existing page, e.g., about.qmd. Call it penguins.qmd.\nEdit the title and content of penguins.qmd.\nAdd it to _quarto.yml."
+  },
+  {
+    "objectID": "04_addcode.html",
+    "href": "04_addcode.html",
+    "title": "Task: Adding a page",
+    "section": "",
+    "text": "Insert a code chunk.\n\nUse the green +C button or Ctrl+Alt+I/Cmd+Opt+I.\n\nAdd in R code, for example:\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\npenguins %>% \n  ggplot(aes(species, flipper_length_mm, fill = sex, size = body_mass_g)) +\n  geom_jitter(shape = 21, colour = \"grey\", alpha = 0.8) +\n  scale_fill_viridis_d() +\n  theme_bw()\n\n\nHide the R code and its warnings.\n\nSearch online for ‘quarto output options’ to copy the relevant YAML options.\nDisplaying code is referred to as ‘echo’."
+  },
+  {
+    "objectID": "05_netlify.html",
+    "href": "05_netlify.html",
+    "title": "Task: Serve your website using Netlify",
+    "section": "",
+    "text": "Find the project and its _site directory on your computer.\n\nThe Files tab within RStudio shows you the project path. Locate this folder in File Explorer (Windows) or Finder (macOS).\n\nSearch online for ‘netlify drop’\nDrag and drop the _site folder there."
+  },
+  {
+    "objectID": "06_update.html",
+    "href": "06_update.html",
+    "title": "Task: Update your website",
+    "section": "",
+    "text": "Edit your website in RStudio. Click Render.\nIn Netlify - Deploys - Drag and drop _site folder to the update area:"
+  },
+  {
+    "objectID": "06_update.html#optional-advanced-automatic-deploys-via-github",
+    "href": "06_update.html#optional-advanced-automatic-deploys-via-github",
+    "title": "Task: Update your website",
+    "section": "Optional advanced: automatic deploys via GitHub",
+    "text": "Optional advanced: automatic deploys via GitHub\n\nIf this is the first time you’re using git on your computer, do these things:\nRStudio, Tools, Global Options, Git/SVN, Create SSH Key.\nCopy the key over to your GitHub account Settings.\nBack in RStudio, run these lines in the Shell/Terminal (also under Tools):\n\n```\ngit config --global user.email “your@email.com”\ngit config --global user.name “username”\n```\n\nPush your Quarto website project from RStudio to GitHub. Hint: Create a new repository on GitHub first.\nMake your Netlify automatically update your website when you push to GitHub.\nNetlify, Site settings, Build & deploy, Link repository.\nPublish directory: `_site`.\nTest that it works by editing your website in RStudio, render, commit, push. Tip: for committing multiple files, `git add .` in the Terminal is convenient. It does the same thing as manually ticking everything in the Git tab."
+  },
+  {
+    "objectID": "06_update.html#bonus-tasks",
+    "href": "06_update.html#bonus-tasks",
+    "title": "Task: Update your website",
+    "section": "Bonus tasks",
+    "text": "Bonus tasks\n\nGet the person sitting next to you to edit your website.\nRStudio - New Project - Version Control - URL is your GitHub repository.\nTheir Push will become a pull request.\nYou should merge the pull request to main. Your website should then update.\nFabricate a merge conflict. Solve it."
+  },
+  {
+    "objectID": "01_newproject.html#instructions",
+    "href": "01_newproject.html#instructions",
+    "title": "Task: Create a new Quarto website project",
+    "section": "Instructions:",
+    "text": "Instructions:\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template."
+  },
+  {
+    "objectID": "01_newproject.html#screencast",
+    "href": "01_newproject.html#screencast",
+    "title": "Task: Create a new Quarto website project",
+    "section": "Screencast:",
+    "text": "Screencast:"
+  },
+  {
+    "objectID": "01_newproject.html#troubleshooting",
+    "href": "01_newproject.html#troubleshooting",
+    "title": "Task: Create a new Quarto website project",
+    "section": "Troubleshooting:",
+    "text": "Troubleshooting:\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
+  },
+  {
+    "objectID": "03_addpage.html#troubleshooting",
+    "href": "03_addpage.html#troubleshooting",
+    "title": "Task: Add a page to your website",
+    "section": "Troubleshooting:",
+    "text": "Troubleshooting:\n\nError: Cannot retrieve output, Parameter value invalid.\n\nClose the error and hit Render again. It will just go away 😅"
+  },
+  {
+    "objectID": "05_netlify.html#optional-if-want-to-keep-the-site-for-longer-than-1h",
+    "href": "05_netlify.html#optional-if-want-to-keep-the-site-for-longer-than-1h",
+    "title": "Task: Serve your website using Netlify",
+    "section": "Optional: If want to keep the site for longer than 1h",
+    "text": "Optional: If want to keep the site for longer than 1h\n\nCreate a Netlify account (GitHub authentication is convenient). Claim the site.\nGive it a better URL, e.g., yourname.netlify.app.\n\nSite settings - General - Change site name.\nFYI, custom domains, so getting rid of the trailing netlify.app cost around £20-30 per year."
+  }
+]

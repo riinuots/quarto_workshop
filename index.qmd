@@ -1,0 +1,25 @@
+---
+title: "A HealthyR bitesize workshop"
+---
+
+This is a Quarto-Netlify-GitHub workshop. The resulting website can be viewed here: [quarto-demo.netlify.app](https://quarto-demo.netlify.app/)
+
+Installation:
+
+-   Install the latest version of R on your computer
+
+    -   <https://cloud.r-project.org/>
+
+-   Install the latest version of RStudio Desktop on your computer
+
+    -   <https://www.rstudio.com/products/rstudio/download/#download>
+
+Optional (advanced):
+
+-   Install git
+
+    -   <https://git-scm.com/downloads>
+
+-   Make sure you know your GitHub login/create a GitHub account if you don\'t have one already
+
+    -   <https://github.com/>

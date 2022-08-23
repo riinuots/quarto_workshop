@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Intro
+      - href: 01_newproject.qmd
+        text: "New Quarto website"
+      - href: 02_changetheme.qmd
+        text: "Edit website"
+      - href: 03_addpage.qmd
+        text: "Add new page"
+      - href: 04_addcode.qmd
+        text: "Add R code"
+      - href: 05_netlify.qmd
+        text: "Share using Netlify"
+        
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+
+editor: visual
+
