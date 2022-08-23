@@ -1,10 +1,23 @@
 ---
-title: "A HealthyR bitesize workshop"
+title: "Creating a website using Quarto and RStudio"
 ---
 
-This is a Quarto-Netlify-GitHub workshop. The resulting website can be viewed here: [quarto-demo.netlify.app](https://quarto-demo.netlify.app/){target="_blank"}
+This is a Quarto-Netlify-GitHub workshop.
 
-Installation:
+The resulting website can be viewed here: [quarto-demo.netlify.app](https://quarto-demo.netlify.app/){target="_blank"}
+
+## What is Quarto?
+
+-   Quarto^®^ is an open-source scientific and technical publishing system built on Pandoc
+
+-   \[https://quarto.org/\](https://quarto.org/){target="\_blank"}
+
+```{=html}
+<!-- -->
+```
+-   Colloquially known as 'the new R Markdown'
+
+## Prerequisites:
 
 -   Install the latest version of R on your computer
 
@@ -14,7 +27,7 @@ Installation:
 
     -   [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}
 
-Optional (advanced):
+### Optional (advanced):
 
 -   Install git
 
@@ -23,3 +36,11 @@ Optional (advanced):
 -   Make sure you know your GitHub login/create a GitHub account if you don't have one already
 
     -   [https://github.com/](https://github.com/){target="_blank"}
+
+This is a workshop by **Riinu Pius** ([https://riinu.me](https://riinu.me/){target="_blank"}) for HealthyR ([https://healthyr.surgicalinformatics.org/](https://healthyr.surgicalinformatics.org/){target="_blank"}).
+
+## Issues:
+
+-   <https://github.com/riinuots/quarto_workshop/issues>
+
+![](images/shaded%20background_10.png){fig-alt="HealthyR: R for health data science"}

@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "A HealthyR bitesize workshop",
+    "title": "Creating a website using Quarto and RStudio",
     "section": "",
-    "text": "Installation:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/"
+    "text": "This is a Quarto-Netlify-GitHub workshop.\nThe resulting website can be viewed here: quarto-demo.netlify.app"
   },
   {
     "objectID": "about.html",
@@ -103,5 +103,26 @@
     "title": "Task: Serve your website using Netlify",
     "section": "Optional: If want to keep the site for longer than 1h",
     "text": "Optional: If want to keep the site for longer than 1h\n\nCreate a Netlify account (GitHub authentication is convenient). Claim the site.\nGive it a better URL, e.g., yourname.netlify.app.\n\nSite settings - General - Change site name.\nFYI, custom domains, so getting rid of the trailing netlify.app cost around £20-30 per year."
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Prerequisites:",
+    "text": "Prerequisites:\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\n\nOptional (advanced):\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/\n\n\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
+  },
+  {
+    "objectID": "index.html#issues",
+    "href": "index.html#issues",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Issues:",
+    "text": "Issues:\n\nhttps://github.com/riinuots/quarto_workshop/issues"
+  },
+  {
+    "objectID": "index.html#what-is-quarto",
+    "href": "index.html#what-is-quarto",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\n[https://quarto.org/](https://quarto.org/){target=“_blank”}\n\n\n\nColloquially known as ‘the new R Markdown’"
   }
 ]
