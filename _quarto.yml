@@ -16,6 +16,8 @@ website:
         text: "Add R code"
       - href: 05_netlify.qmd
         text: "Share using Netlify"
+      - href: 06_update.qmd
+        text: "Updating"
         
 format:
   html:
