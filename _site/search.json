@@ -37,7 +37,7 @@
   {
     "objectID": "04_addcode.html",
     "href": "04_addcode.html",
-    "title": "Task: Adding a page",
+    "title": "Task: Add R code to your website",
     "section": "",
     "text": "Insert a code chunk.\n\nUse the green +C button or Ctrl+Alt+I/Cmd+Opt+I.\n\nAdd in R code, for example:\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\npenguins %>% \n  ggplot(aes(species, flipper_length_mm, fill = sex, size = body_mass_g)) +\n  geom_jitter(shape = 21, colour = \"grey\", alpha = 0.8) +\n  scale_fill_viridis_d() +\n  theme_bw()\n\n\nHide the R code and its warnings.\n\nSearch online for ‘quarto output options’ to copy the relevant YAML options.\nDisplaying code is referred to as ‘echo’."
   },

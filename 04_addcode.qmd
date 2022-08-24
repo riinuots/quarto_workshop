@@ -1,5 +1,5 @@
 ---
-title: "Task: Adding a page"
+title: "Task: Add R code to your website"
 format: 
   html:
     page-layout: full
@@ -8,7 +8,7 @@ format:
 ## Instructions
 
 -   Insert a code chunk.
-    -   Use the green +C button or `Ctrl+Alt+I`/`Cmd+Opt+I`.
+    -   Use the green **+C** button or `Ctrl+Alt+I`/`Cmd+Opt+I`.
 -   Add in R code, for example:
 
 ```{r}
