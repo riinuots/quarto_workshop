@@ -60,7 +60,7 @@
     "href": "06_update.html#optional-advanced-automatic-deploys-via-github",
     "title": "Task: Update your website",
     "section": "Optional advanced: automatic deploys via GitHub",
-    "text": "Optional advanced: automatic deploys via GitHub\n\nIf this is the first time you’re using git on your computer, do these things:\nRStudio, Tools, Global Options, Git/SVN, Create SSH Key.\nCopy the key over to your GitHub account Settings.\nBack in RStudio, run these lines in the Shell/Terminal (also under Tools):\n\ngit config --global user.email \"your@email.com\"\ngit config --global user.name \"username\"\n\nPush your Quarto website project from RStudio to GitHub. Hint: Create a new repository on GitHub first.\nMake your Netlify automatically update your website when you push to GitHub.\nNetlify, Site settings, Build & deploy, Link repository.\nPublish directory: `_site`.\nTest that it works by editing your website in RStudio, render, commit, push. Tip: for committing multiple files, `git add .` in the Terminal is convenient. It does the same thing as manually ticking everything in the Git tab."
+    "text": "Optional advanced: automatic deploys via GitHub\n\nIf this is the first time you’re using git on your computer, do these things:\n\nInstall git: [https://git-scm.com/downloads](https://git-scm.com/downloads){target=“_blank”}\nCreate a GitHub account if you don’t have one already: [https://github.com/](https://github.com/){target=“_blank”}\nRStudio, Tools, Global Options, Git/SVN, Create SSH Key.\nCopy the key over to your GitHub account Settings.\nBack in RStudio, run these lines in the Shell/Terminal (also under Tools):\n\n\ngit config --global user.email \"your@email.com\"\ngit config --global user.name \"username\"\n\nPush your Quarto website project from RStudio to GitHub. Hint: Create a new repository on GitHub first.\nMake your Netlify automatically update your website when you push to GitHub.\nNetlify, Site settings, Build & deploy, Link repository.\nPublish directory: `_site`.\nTest that it works by editing your website in RStudio, render, commit, push. Tip: for committing multiple files, `git add .` in the Terminal is convenient. It does the same thing as manually ticking everything in the Git tab."
   },
   {
     "objectID": "06_update.html#bonus-tasks",
@@ -88,7 +88,7 @@
     "href": "01_newproject.html#troubleshooting",
     "title": "Task: Create a new Quarto website project",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
+    "text": "Troubleshooting\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure the project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
   },
   {
     "objectID": "03_addpage.html#troubleshooting",
@@ -109,7 +109,7 @@
     "href": "index.html#prerequisites",
     "title": "Creating a website using Quarto and RStudio",
     "section": "Prerequisites",
-    "text": "Prerequisites\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\n\nOptional (advanced)\n\nInstall git\n\nhttps://git-scm.com/downloads\n\nMake sure you know your GitHub login/create a GitHub account if you don’t have one already\n\nhttps://github.com/\n\n\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
+    "text": "Prerequisites\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\nInstall the latest version of RStudio Desktop on your computer\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\n\nWorkshop versions: R 4.2.1, RStudio 2022.07.1.\nNote: Quarto can be installed and used without R or RStudio, e.g., with VS Code, etc. But this workshop demonstrates the use of RStudio and includes some R code."
   },
   {
     "objectID": "index.html#issues",
@@ -124,5 +124,12 @@
     "title": "Creating a website using Quarto and RStudio",
     "section": "What is Quarto?",
     "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\nhttps://quarto.org/\nColloquially known as the ‘new R Markdown’"
+  },
+  {
+    "objectID": "index.html#author",
+    "href": "index.html#author",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Author",
+    "text": "Author\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
   }
 ]
