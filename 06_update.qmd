@@ -16,9 +16,9 @@ format:
 
 -   If this is the first time you're using git on your computer, do these things:
 
-    -   Install git: \[https://git-scm.com/downloads\](https://git-scm.com/downloads){target="\_blank"}
+    -   Install git: [https://git-scm.com/downloads](https://git-scm.com/downloads){target="_blank"}
 
-    -   Create a GitHub account if you don't have one already: \[https://github.com/\](https://github.com/){target="\_blank"}
+    -   Create a GitHub account if you don't have one already: [https://github.com/](https://github.com/){target="_blank"}
 
     -   RStudio, Tools, Global Options, Git/SVN, Create SSH Key.
 
