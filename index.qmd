@@ -16,13 +16,10 @@ The resulting website can be viewed here: [quarto-demo.netlify.app](https://quar
 
 ## Prerequisites
 
--    Install the latest version of RStudio Desktop on your computer (from July 2022, Quarto is included with RStudio)
+-   Install the latest version of RStudio Desktop on your computer (from July 2022, Quarto is included with RStudio)
 
     -   [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download){target="_blank"}
 
-```{=html}
-<!-- -->
-```
 -   Install the latest version of R on your computer
 
     -   [https://cloud.r-project.org/](https://cloud.r-project.org/){target="_blank"}

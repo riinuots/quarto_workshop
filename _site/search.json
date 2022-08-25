@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "01_newproject.html#instructions",
+    "href": "01_newproject.html#instructions",
+    "title": "Task: Create a new Quarto website project",
+    "section": "Instructions",
+    "text": "Instructions\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template."
+  },
+  {
+    "objectID": "01_newproject.html#troubleshooting",
+    "href": "01_newproject.html#troubleshooting",
+    "title": "Task: Create a new Quarto website project",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure the project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.1 or greater."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Creating a website using Quarto and RStudio",
@@ -7,18 +21,32 @@
     "text": "This is a Quarto-Netlify-GitHub workshop.\nThe resulting website can be viewed here: quarto-demo.netlify.app"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "objectID": "index.html#what-is-quarto",
+    "href": "index.html#what-is-quarto",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\nhttps://quarto.org/\nColloquially known as the ‘new R Markdown’"
   },
   {
-    "objectID": "01_newproject.html",
-    "href": "01_newproject.html",
-    "title": "Task: Create a new Quarto website project",
-    "section": "",
-    "text": "Instructions:\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template.\n\nScreencast:\n\n\n\n\n\n\nTroubleshooting:\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.01 or greater."
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nInstall the latest version of RStudio Desktop on your computer (from July 2022, Quarto is included with RStudio)\n\nhttps://www.rstudio.com/products/rstudio/download/#download\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\n\nWorkshop versions: R 4.2.1, RStudio 2022.07.1.\nNote: Quarto can be used without R or RStudio, e.g., with VS Code. But this workshop demonstrates the use of RStudio and includes some R code."
+  },
+  {
+    "objectID": "index.html#author",
+    "href": "index.html#author",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Author",
+    "text": "Author\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
+  },
+  {
+    "objectID": "index.html#issues",
+    "href": "index.html#issues",
+    "title": "Creating a website using Quarto and RStudio",
+    "section": "Issues",
+    "text": "Issues\n\nhttps://github.com/riinuots/quarto_workshop/issues"
   },
   {
     "objectID": "02_changetheme.html",
@@ -35,18 +63,18 @@
     "text": "Take a copy of an existing page, e.g., about.qmd. Call it penguins.qmd.\nEdit the title and content of penguins.qmd.\nAdd it to _quarto.yml."
   },
   {
+    "objectID": "03_addpage.html#troubleshooting",
+    "href": "03_addpage.html#troubleshooting",
+    "title": "Task: Add a page to your website",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nError: Cannot retrieve output, Parameter value invalid.\n\nClose the error and hit Render again. It will just go away 😅"
+  },
+  {
     "objectID": "04_addcode.html",
     "href": "04_addcode.html",
     "title": "Task: Add R code to your website",
     "section": "",
     "text": "Insert a code chunk.\n\nUse the green +C button or Ctrl+Alt+I/Cmd+Opt+I.\n\nAdd in R code, for example:\n\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\n\npenguins %>% \n  ggplot(aes(species, flipper_length_mm, fill = sex, size = body_mass_g)) +\n  geom_jitter(shape = 21, colour = \"grey\", alpha = 0.8) +\n  scale_fill_viridis_d() +\n  theme_bw()\n\n\nHide the R code and its warnings.\n\nSearch online for ‘quarto output options’ to copy the relevant YAML options.\nDisplaying code is referred to as ‘echo’."
-  },
-  {
-    "objectID": "05_netlify.html",
-    "href": "05_netlify.html",
-    "title": "Task: Serve your website using Netlify",
-    "section": "",
-    "text": "Find the project and its _site directory on your computer.\n\nThe Files tab within RStudio shows you the project path. Locate this folder in File Explorer (Windows) or Finder (macOS).\n\nSearch online for ‘netlify drop’\nDrag and drop the _site folder there."
   },
   {
     "objectID": "06_update.html",
@@ -70,32 +98,11 @@
     "text": "Bonus tasks\n\nGet the person sitting next to you to edit your website.\nRStudio - New Project - Version Control - URL is your GitHub repository.\nTheir Push will become a pull request.\nYou should merge the pull request to main. Your website should then update.\nFabricate a merge conflict. Solve it."
   },
   {
-    "objectID": "01_newproject.html#instructions",
-    "href": "01_newproject.html#instructions",
-    "title": "Task: Create a new Quarto website project",
-    "section": "Instructions",
-    "text": "Instructions\n\nRStudio - New Project - New Directory - Quarto Website\nClick on Render to have a look at the template."
-  },
-  {
-    "objectID": "01_newproject.html#screencast",
-    "href": "01_newproject.html#screencast",
-    "title": "Task: Create a new Quarto website project",
-    "section": "Screencast:",
-    "text": "Screencast:"
-  },
-  {
-    "objectID": "01_newproject.html#troubleshooting",
-    "href": "01_newproject.html#troubleshooting",
-    "title": "Task: Create a new Quarto website project",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nError: “C:/Program is not recognised as an internal or external command, operable program or batch file.”\n\nMake sure the project name and parent folders have no spaces in them (only an issue on some Windows computers).\n\n“Quarto Website” is not listed as an option.\n\nMake sure your RStudio is version 2022.07.1 or greater."
-  },
-  {
-    "objectID": "03_addpage.html#troubleshooting",
-    "href": "03_addpage.html#troubleshooting",
-    "title": "Task: Add a page to your website",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nError: Cannot retrieve output, Parameter value invalid.\n\nClose the error and hit Render again. It will just go away 😅"
+    "objectID": "05_netlify.html",
+    "href": "05_netlify.html",
+    "title": "Task: Serve your website using Netlify",
+    "section": "",
+    "text": "Find the project and its _site directory on your computer.\n\nThe Files tab within RStudio shows you the project path. Locate this folder in File Explorer (Windows) or Finder (macOS).\n\nSearch online for ‘netlify drop’\nDrag and drop the _site folder there."
   },
   {
     "objectID": "05_netlify.html#optional-if-want-to-keep-the-site-for-longer-than-1h",
@@ -103,33 +110,5 @@
     "title": "Task: Serve your website using Netlify",
     "section": "Optional: If want to keep the site for longer than 1h",
     "text": "Optional: If want to keep the site for longer than 1h\n\nCreate a Netlify account (GitHub authentication is convenient). Claim the site.\nGive it a better URL, e.g., yourname.netlify.app.\n\nSite settings - General - Change site name.\nFYI, custom domains, so getting rid of the trailing netlify.app cost around £20-30 per year."
-  },
-  {
-    "objectID": "index.html#prerequisites",
-    "href": "index.html#prerequisites",
-    "title": "Creating a website using Quarto and RStudio",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nInstall the latest version of RStudio Desktop on your computer (from July 2022, Quarto is included with RStudio)\n\n-   [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download){target=\"_blank\"}\n\n\nInstall the latest version of R on your computer\n\nhttps://cloud.r-project.org/\n\n\nWorkshop versions: R 4.2.1, RStudio 2022.07.1.\nNote: Quarto can be used without R or RStudio, e.g., with VS Code. But this workshop demonstrates the use of RStudio and includes some R code."
-  },
-  {
-    "objectID": "index.html#issues",
-    "href": "index.html#issues",
-    "title": "Creating a website using Quarto and RStudio",
-    "section": "Issues",
-    "text": "Issues\n\nhttps://github.com/riinuots/quarto_workshop/issues"
-  },
-  {
-    "objectID": "index.html#what-is-quarto",
-    "href": "index.html#what-is-quarto",
-    "title": "Creating a website using Quarto and RStudio",
-    "section": "What is Quarto?",
-    "text": "What is Quarto?\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc\nhttps://quarto.org/\nColloquially known as the ‘new R Markdown’"
-  },
-  {
-    "objectID": "index.html#author",
-    "href": "index.html#author",
-    "title": "Creating a website using Quarto and RStudio",
-    "section": "Author",
-    "text": "Author\nThis is a workshop by Riinu Pius (https://riinu.me) for HealthyR (https://healthyr.surgicalinformatics.org/)."
   }
 ]
